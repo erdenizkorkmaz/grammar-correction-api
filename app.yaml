@@ -1,0 +1,13 @@
+runtime: python39
+entrypoint: uvicorn app:app --host=0.0.0.0 --port=8080
+env_variables:
+  MODEL_NAME: "sshleifer/distilbart-cnn-12-6"
+  MAX_LENGTH: "46"
+
+automatic_scaling:
+  min_idle_instances: auto
+  max_idle_instances: auto  # Scale down to zero if desired
+
+handlers:
+- url: /.*
+  script: auto
