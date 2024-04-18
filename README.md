@@ -19,7 +19,6 @@ Ensure you have Python 3.6+ installed, then follow these steps to set up the pro
 Clone the repository:
 
 ```bash
-bashCopy code
 git clone https://github.com/yourusername/grammar-correction-api.git
 cd grammar-correction-api
 
@@ -28,7 +27,6 @@ cd grammar-correction-api
 Install dependencies:
 
 ```
-Copy code
 pip install fastapi uvicorn transformers
 
 ```
@@ -36,7 +34,6 @@ pip install fastapi uvicorn transformers
 Start the API server:
 
 ```css
-cssCopy code
 uvicorn main:app --reload
 
 ```
