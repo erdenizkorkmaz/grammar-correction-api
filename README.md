@@ -50,7 +50,6 @@ The API provides two endpoints:
 You can use **`curl`** to make a request to the API:
 
 ```bash
-bashCopy code
 curl -X POST http://127.0.0.1:8000/correct_grammar -H "Content-Type: application/json" -d '{"text": "Your incorrect sentence here."}'
 
 ```
@@ -60,7 +59,6 @@ curl -X POST http://127.0.0.1:8000/correct_grammar -H "Content-Type: application
 The response will include the corrected text:
 
 ```json
-jsonCopy code
 {
   "corrected_text": "Your incorrect sentence here."
 }
