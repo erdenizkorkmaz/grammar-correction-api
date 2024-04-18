@@ -60,7 +60,7 @@ The response will include the corrected text:
 
 ```json
 {
-  "corrected_text": "Your incorrect sentence here."
+  "corrected_text": "Your corrected sentence here."
 }
 
 ```
