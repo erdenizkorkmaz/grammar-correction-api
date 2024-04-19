@@ -19,7 +19,7 @@ Ensure you have Python 3.6+ installed, then follow these steps to set up the pro
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/grammar-correction-api.git
+git clone https://github.com/erdenizkorkmaz/grammar-correction-api.git
 cd grammar-correction-api
 
 ```
